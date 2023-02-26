@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #EEEEEE;
+}
+
+.header {
+    padding: 5px;
+    background: #333333;
+    color: white;
+    font-size: 15px;
+}
+
+.header h1 {
+    margin-left: 20px;
+}
+
+.options {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.search-field
+{
+    border: none;
+    outline: none;
+    padding: 5px;
+    width: 100%;
+}
+
+.select-search {
+    border: none;
+    outline: none;
+    height: 100%;
+}
+
+.search {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid #CCCCCC;
+    width: 300px;
+    column-gap: 5px;
+    margin-left: 50px;
+    background-color: white;
+}
+
+.add-task button {
+    background-color: #BBBBBB;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: none;
+}
+
+.btn-grp {
+    margin-left: 60%;
+}
+
+.edit-btn {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.edit-btn img {
+    width: 25px;
+    height: 25px;
+}
