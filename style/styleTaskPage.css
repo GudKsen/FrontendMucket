@@ -1,0 +1,26 @@
+.task-page-container {
+    background-color: white;
+    border-radius: 10px;
+    border: 1 px solid #BBBBBB; 
+    width: 65%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.addit-task {
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    width: 50%;
+    height: 200px;
+    margin: 30px;
+    margin-left: 270px;
+}
+
+.task-info {
+    padding: 30px;
+}
+
+.deadline {
+    padding-top: 30px;
+}
